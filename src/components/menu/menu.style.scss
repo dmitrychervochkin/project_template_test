@@ -1,0 +1,43 @@
+.menu-container{
+    width: 240px;
+    height: calc(100vh - 52px);
+    background-color: #27272a;
+    border-right: 2px solid #414144;
+}
+.menu-header-title{
+    color: #a1a1aa;
+    
+    .project-name{
+        font-size: 15px;
+    }
+    .abbreviation{
+        font-size: 12px;
+    }
+}
+.menu-header{
+    padding: 8px 10px 8px 20px;
+    display: flex;
+    border-bottom: 2px solid #414144;
+    align-items: center;
+    justify-content: space-between;
+    height: 35px;
+}
+.arrow-down{
+    width: 30px;
+    height: 30px;
+}
+.menu-project{
+    display: flex;
+    padding: 8px 15px;
+    gap: 20px;
+    align-items: center; 
+    transition:  background-color 0.2s;
+
+    &:hover{
+        cursor: pointer;
+        background-color: #a1a1aa;
+    }
+}
+.current-project{
+    background-color: #a1a1aa;
+}

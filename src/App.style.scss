@@ -1,19 +1,23 @@
+*{
+    user-select: none;
+    -webkit-user-select: none;
+}
+
 body {
-    margin: 0;
-    height: 100vh;
-    width: 100vw;
+    margin: 0 auto;
+    padding: 0 auto;
+    background-color: #27272a;
+    font-family: "Roboto", sans-serif;
+    color: white;
+}
 
-    > #root {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: inherit;
-        width: inherit;
+.app-main{
+    display: flex;
+    width: 100%;
+}
 
-        > iframe {
-            height: 100%;
-            width: 100%;
-            border: unset;
-        }
-    }
+.table-section-side{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
