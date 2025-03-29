@@ -36,7 +36,7 @@ export const RowCard = ({ node, setRows, level = 0, setIsSave }: RowCardProps ) 
         estimatedProfit: node.estimatedProfit || 0, 
         overheads: node.overheads || 0, 
         parentId: node.id, 
-        rowName: node.rowName || `Статья работы №${level + 1}`, 
+        rowName: `Статья работы №${level + 1}`, 
         salary: node.salary || 0,
         machineOperatorSalary: 0,
         mainCosts: 0,
